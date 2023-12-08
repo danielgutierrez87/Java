@@ -27,4 +27,15 @@ class Cachorro {
     }
 }
 
+class Animal {
+    String onomatopeia;
+    public void fazBarulho() {
+        System.out.println(this.onomatopeia);
+    }
+    public void atrapalharSono() {
+        for (int i = 1; i < 10; i++) {
+            this.fazBarulho();
+        }
+    }
+}
 
