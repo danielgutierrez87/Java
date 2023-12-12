@@ -1,7 +1,21 @@
 public class aula02 {
     public static void main (String[] args) {
         Animal jorge = new Animal("auauau");
-        jorge.atrapalharSono(); 
+        jorge.atrapalharSono();
+        Animal gato = new Animal("miau miau");
+        gato.atrapalharSono(); 
+        Animal pinto = new Animal("piu piu");
+        pinto.atrapalharSono();
+        Animal vaca = new Animal("muuu");
+        vaca.atrapalharSono();
+        Animal papagaio = new Animal("loroooo");
+        papagaio.atrapalharSono();
+        Animal cabra = new Animal("béhhhhh");
+        cabra.atrapalharSono();
+        Animal passaro = new Animal("bentivii");
+        passaro.atrapalharSono();
+        Animal porco = new Animal("ronc ronc");
+        porco.atrapalharSono();
     }
 }
 
