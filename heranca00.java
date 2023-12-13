@@ -17,18 +17,18 @@ abstract class Animal {
     }
 
     public void descrever() {
-        System.out.println("Raça: " + this. raca);
-        System.out.println("Cor: " + this. cor);
-        System.out.println("Idade: " + this. idade);
+        System.out.println("Raça: " + this.raca);
+        System.out.println("Cor: " + this.cor);
+        System.out.println("Idade: " + this.idade);
     }
 }
 
 class Cachorro extends Animal {
     public Cachorro() {
-        this. onomatopeia = "auau";
-        this. raca = "vira-lata";
-        this. cor = "caramelo";
-        this. idade = 2;
-        
+        this.onomatopeia = "auau";
+        this.raca = "vira-lata";
+        this.cor = "caramelo";
+        this.idade = 2;
+
     } 
 }
