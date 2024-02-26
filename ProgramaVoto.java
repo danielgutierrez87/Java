@@ -14,7 +14,7 @@ public class ProgramaVoto {
             if ((idade >= 16 && idade < 18) || (idade > 70)) {
                 System.out.println("Voto opcional!");
             } else {
-                System.out.println("Voto obrigatório!");
+                System.out.println("Voto obrigatório!"); 
             }
         }
     }
